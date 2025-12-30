@@ -1,7 +1,7 @@
 [project]
-name = "e-motel-face-api"
+name = "reco-face-api"
 version = "0.1.0"
-description = "Face verification service for E-Motel using Uniface"
+description = "Face verification service for Student Attendance Check-in System using Uniface"
 requires-python = ">=3.10"
 dependencies = [
     "fastapi>=0.104.1",
