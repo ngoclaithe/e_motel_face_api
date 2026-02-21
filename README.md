@@ -19,7 +19,7 @@ uv pip install -e .
 ## Run
 
 ```bash
-uv run uvicorn app.main:app --host 0.0.0.0 --port 8001 --reload
+uv run uvicorn app.main:app --host 0.0.0.0 --port 8003 --reload
 ```
 
 ## API Endpoints
