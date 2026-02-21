@@ -8,12 +8,12 @@ from io import BytesIO
 from PIL import Image
 from uniface import RetinaFace, ArcFace, compute_similarity
 
-app = FastAPI(title="E-Motel Face Verification API")
+app = FastAPI(title="Student Attendance Face Verification API")
 
 # CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://localhost:8000"],
+    allow_origins=["http://localhost:5173", "http://localhost:8002"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
