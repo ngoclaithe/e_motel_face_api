@@ -1,7 +1,7 @@
 [project]
 name = "reco-face-api"
 version = "0.1.0"
-description = "Face verification service for Student Attendance Check-in System using Uniface"
+description = "Face verification API service for MarketHub seller identity authentication using Uniface"
 requires-python = ">=3.10"
 dependencies = [
     "fastapi>=0.104.1",
